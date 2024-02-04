@@ -11,6 +11,7 @@ function increment() {
 
 function decrement() {
     if (counterValue > 0) {
+        // Increment
         counterValue--;
         updateCounter();
     }
