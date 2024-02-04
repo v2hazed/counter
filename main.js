@@ -5,6 +5,7 @@ function updateCounter() {
 }
 
 function increment() {
+    // update counter
     counterValue++;
     updateCounter();
 }
